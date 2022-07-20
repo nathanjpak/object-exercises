@@ -29,5 +29,9 @@ Starter Code
 
 function listAllValues(obj) {
   // your code here
-
+  let array = [];
+  for (let prop in obj) {
+    array.push(obj[prop]);
+  }
+  return array
 }
