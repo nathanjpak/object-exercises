@@ -27,4 +27,9 @@ function getAllKeys(obj) {
 
 function getAllKeys(obj){
   // your code here
+  let array = [];
+  for (let prop in obj) {
+    array.push(prop);
+  }
+  return array
 }
